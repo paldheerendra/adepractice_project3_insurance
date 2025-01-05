@@ -1,0 +1,25 @@
+{
+	"name": "Hourly_Execution",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ingest_Increamental_AgentData",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2025-01-01T05:58:00",
+				"endTime": "2025-01-02T06:58:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

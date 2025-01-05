@@ -1,0 +1,25 @@
+{
+	"name": "Hourly_Trigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "ingest_Increamental_ClaimData",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 1,
+				"startTime": "2024-12-31T08:09:00",
+				"endTime": "2025-01-01T08:09:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"name": "ipdheerenadf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9bdf7516-5922-462a-8ad3-d1c8023d9d2f",
+		"tenantId": "24c4573c-67c3-458d-ae50-963da02f99e9"
+	}
+}
